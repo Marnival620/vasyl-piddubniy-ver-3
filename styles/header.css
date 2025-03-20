@@ -1,0 +1,71 @@
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px; /**/
+	background-color: rgb(220,220,220);
+	font-weight: 550;
+	font-size: 20px;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	box-shadow: 0 -4px 20px rgb(200, 200, 200);
+	
+}
+
+.buffer-section {
+	flex: 1;
+	display: flex;
+	max-width: 300px;
+	
+}
+
+.left-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex: 8;
+	width: 0;
+	
+}
+
+
+
+/*
+.item-about-author,.item-books {
+	margin-right: 20px;
+}
+	*/
+
+.item-about-author {
+
+	font-size: 30px;
+	flex: 1;
+	margin-left: 160px;
+	
+}
+
+.right-section {
+	display: flex;
+	justify-content: right;
+	margin-right: 15px;
+	flex: 1;
+}
+
+.social-facebook {
+	margin-top: 8px ;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	object-fit: cover;
+	margin-left: 70px;
+}
+
+.item-books {
+	margin-right: 100px;
+	font-size: 22px;
+}
+
+

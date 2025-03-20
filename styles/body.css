@@ -1,0 +1,50 @@
+.div-wrapper {
+	display:flex;
+	flex-direction:row;
+}
+
+.left-space, .right-space {
+	flex:4;
+	min-width: 160px;
+}
+
+.left-space-index {
+	flex:4;
+	min-width: 270px;
+}
+
+.left-space {
+	min-width: 100px;
+}
+
+.about-author {
+	margin-top: -9px;
+	flex:8;
+	
+	min-width: 400px;
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+
+/*.author-header {
+	font-size: 32px;
+	font-weight: 500;
+	text-align: center;	
+}
+*/
+
+
+
+.paragraph-1 {
+	text-indent: 1.5em;
+	color:rgb(20, 0, 0);
+	line-height: 1.3em;
+	font-family: Cardo;
+	margin-top: 0;
+	margin-bottom: 42px;
+
+}
+
+
+
+
